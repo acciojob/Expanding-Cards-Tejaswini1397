@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.panel {
+    width: 200px;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+
+.panel img {
+
+    height: auto;
+	border-radius:20px;
+}
+
+.img-text {
+    text-align: center;
+}
+
+.panel.active {
+   width:100%;
+	
+}
